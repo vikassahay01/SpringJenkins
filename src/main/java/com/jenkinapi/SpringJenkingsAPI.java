@@ -19,6 +19,7 @@ public class SpringJenkingsAPI {
 
     public static void main(String[] args) {
         log.info("Application executed");
+        log.info("Application executed with second time");
         SpringApplication.run(SpringJenkingsAPI.class, args);
     }
 }
