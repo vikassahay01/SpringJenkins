@@ -9,10 +9,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringJenkingsAPI {
 
-    static Logger log = LoggerFactory.getLogger(SpringJenkingsAPI.class);
+   public static Logger log = LoggerFactory.getLogger(SpringJenkingsAPI.class);
 
     @PostConstruct
-    public void init(String msg) {
+    public void init() {
         log.info("Application started");
     }
 

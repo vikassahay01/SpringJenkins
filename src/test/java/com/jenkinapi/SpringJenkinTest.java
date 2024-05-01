@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class SpringJenkinTest {
     static Logger log = LoggerFactory.getLogger(SpringJenkinTest.class);
    @Test
-    public void contextloads(){
+    public void contextLoads(){
        log.info("Test Case executed");
        assertEquals(true,true);
     }
