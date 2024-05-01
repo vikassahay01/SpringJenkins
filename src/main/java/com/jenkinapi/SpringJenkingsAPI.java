@@ -12,7 +12,7 @@ public class SpringJenkingsAPI {
    public static Logger log = LoggerFactory.getLogger(SpringJenkingsAPI.class);
 
     @PostConstruct
-    public void init() {
+    public void initconfig() {
         log.info("Application started");
     }
 
