@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class SpringJenkinTest {
     static Logger log = LoggerFactory.getLogger(SpringJenkinTest.class);
    @Test
-    public void contextLoads(){
+    public  contextLoads(){
        log.info("Test Case executed");
        log.info("Test Case executed 2nd time");
        assertEquals(true,true);
